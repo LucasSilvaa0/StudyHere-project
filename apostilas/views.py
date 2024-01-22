@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from .models import Apostila, ViewApostila
 from django.contrib.messages import constants
 from django.contrib import messages
+import os
 
 def adicionar_apostilas(request):
     if request.method == 'GET':
@@ -38,3 +39,16 @@ def apostila(request, id):
     views_totais = ViewApostila.objects.filter(apostila=apostila).count()
     
     return render(request, 'apostila.html', {'apostila': apostila, 'views_totais': views_totais, 'views_unicas': views_unicas})
+
+def deletar_apostila(request, id):
+    apostila = Apostila.objects.get(id=id)
+    
+
+    if apostila.user == request.user:
+        views_apostila = ViewApostila.objects.filter(apostila_id=id)
+        for view in views_apostila:
+            view.delete()
+        os.remove(f"media/{apostila.arquivo}")
+        apostila.delete()
+        
+    return redirect('/apostilas/adicionar_apostilas')

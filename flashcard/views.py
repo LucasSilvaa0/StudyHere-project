@@ -8,7 +8,6 @@ def novo_flashcard(request):
     if not request.user.is_authenticated:
         return redirect('/usuarios/logar')
     
-    
     if request.method == 'GET':
         categorias = Categoria.objects.all()
         dificuldades = Flashcard.DIFICULDADE_CHOICES
@@ -51,10 +50,16 @@ def novo_flashcard(request):
 
 def deletar_flashcard(request, id):
     flashcard = Flashcard.objects.get(id=id)
-    if flashcard.user_id == request.user.id:
-        flashcard.delete()
-        messages.add_message(request, constants.SUCCESS, "Flahscard deletado com sucesso!")
     
+    if flashcard.user_id == request.user.id:
+        flashcard_desafio = FlashcardDesafio.objects.filter(flashcard__id=id)
+        for f in flashcard_desafio:
+            f.delete()
+            
+        flashcard.delete()
+        
+        messages.add_message(request, constants.SUCCESS, "Flahscard deletado com sucesso!")
+
     return redirect('/flashcard/novo_flashcard')
 
 def iniciar_desafio(request):

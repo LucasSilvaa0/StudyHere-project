@@ -22,7 +22,7 @@ There are some different pages on the website:
 ![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/115c4558-92d7-4a01-87c9-fed089f6b105)
 
 /apostilas/adicionar_apostila:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/11f02829-4693-40b5-9472-93e3b38c9851)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/ce395cab-f341-4db4-bfb9-5088153d0720)
 
 /apostilas/apostila:
 ![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/42cf5b4d-32ba-471a-9296-0dc87e2ef9fb)

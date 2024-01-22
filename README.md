@@ -7,7 +7,7 @@ There are some different pages on the website:
 ![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/5c7a3248-8850-4d03-b1df-10bfb0e61c2d)
 
 /flashcard/novo_flashcard:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/f5d63eb6-9fa4-4754-84f1-0dac99e554b8)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/87f6f38d-640b-45b7-a291-b1a8fbb5e450)
 
 /flashcard/iniciar_desafio:
 ![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/22553bb7-d194-475d-a2a5-dad4d8f19611)

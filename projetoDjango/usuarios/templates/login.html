@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'cabecalho' %}
+    <link href="{% static 'usuarios/css/cadastro.css' %}" rel="stylesheet">
+{% endblock %}
+{% block 'conteudo' %}
+    <div class="bg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="box-titulo">
+                        <div class="box-titulo-item">
+                        <img src="{% static 'usuarios/img/logo.png' %}">
+                        </div>
+                        <div style="margin-top: auto; margin-bottom: auto;" class="box-titulo-item">
+                        <h3 >StudyHere</h3>
+                        </div>
+                    </div>
+                    <hr class="divisor">
+                    <br>
+                    <div class="tac">
+                        <h4 style="font-size: 30px">Sua plataforma online<br> para te ajudar nos estudos</h4>
+                    </div>
+                    
+                </div>
+                <div class="col-md">
+                    <br>
+                    <br>
+                    <div class="box-form">
+                        <div class="box-circle">
+                            <div class="circle c1"></div>
+                            <div class="circle c2"></div>
+                            <div class="circle c3"></div>
+                        </div>
+                        <br>
+                        <h3>Logar</h3>
+                        {% if messages %}
+                            {% for message in messages %}
+                                <section class="alert {{message.tags}}">
+                                    {{message}}
+                                </section>
+                            {% endfor %}
+                        {% endif %}
+                        <form action="{% url 'login' %}" method="POST">{% csrf_token %}
+                            <label>Username</label>
+                            <input type="text" class="input-form" name="username" id="">
+                            <br>
+                            <br>
+                            <label>Senha</label>
+                            <input type="password" class="input-form" name="senha" id="">
+                            <br>
+                            <br>
+                            <input type="submit" value="Enviar" class="btn-cadastro">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock 'conteudo' %}

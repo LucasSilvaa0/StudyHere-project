@@ -7,22 +7,22 @@ There are some different pages on the website:
 ![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/5c7a3248-8850-4d03-b1df-10bfb0e61c2d)
 
 /flashcard/novo_flashcard:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/87f6f38d-640b-45b7-a291-b1a8fbb5e450)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/cc77c750-fb4a-46e3-b025-77b2779707bc)
 
 /flashcard/iniciar_desafio:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/22553bb7-d194-475d-a2a5-dad4d8f19611)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/6dbf3eb2-bd0c-4a63-b58c-1b1110ad8e28)
 
 /flashcard/listar_desafio:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/19ce50ac-7600-4700-938c-d5ab1fe583a9)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/dd5b253b-f0ec-4705-9e14-e9e51acc2925)
 
 /flashcard/desafio:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/092d8404-a871-4f68-920c-4e58bf940075)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/7b98eba4-5612-4985-85db-976ccb84bb96)
 
 /flashcard/relatorio:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/b58ec204-0093-4d02-95a2-c16cf6835b15)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/115c4558-92d7-4a01-87c9-fed089f6b105)
 
 /apostilas/adicionar_apostila:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/cf3e5935-fccc-4b3e-bc7b-900dd90fb048)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/11f02829-4693-40b5-9472-93e3b38c9851)
 
 /apostilas/apostila:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/1af41791-7595-4883-82fd-23d6bfc57aba)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/42cf5b4d-32ba-471a-9296-0dc87e2ef9fb)

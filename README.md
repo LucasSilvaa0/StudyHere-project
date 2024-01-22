@@ -4,7 +4,7 @@ There are some different pages on the website:
 ![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/db6ab74a-a68c-432e-aac4-617984279751)
 
 /usuario/logar:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/53e90411-f533-48c8-a749-c42072652ebd)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/5c7a3248-8850-4d03-b1df-10bfb0e61c2d)
 
 /flashcard/novo_flashcard:
 ![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/f5d63eb6-9fa4-4754-84f1-0dac99e554b8)

@@ -1,28 +1,28 @@
 There are some different pages on the website:
 
 /usuario/cadastro:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/db6ab74a-a68c-432e-aac4-617984279751)
+![Captura de tela 2024-01-21 220735](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/30cf0efb-db59-4214-8bf0-c521b523870c)
 
 /usuario/logar:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/5c7a3248-8850-4d03-b1df-10bfb0e61c2d)
+![Captura de tela 2024-01-21 221844](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/abac6955-2ce2-4296-b99a-b72d782f2909)
 
 /flashcard/novo_flashcard:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/cc77c750-fb4a-46e3-b025-77b2779707bc)
+![Captura de tela 2024-01-22 085400](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/90aeccfa-9ef0-40a8-aaa9-3fcb6e8a6a65)
 
 /flashcard/iniciar_desafio:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/6dbf3eb2-bd0c-4a63-b58c-1b1110ad8e28)
+![Captura de tela 2024-01-22 085433](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/d168937d-98ba-4f4b-babe-b995b0f38861)
 
 /flashcard/listar_desafio:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/dd5b253b-f0ec-4705-9e14-e9e51acc2925)
+![Captura de tela 2024-01-22 085454](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/cf722884-e506-44d5-bc96-cf2364a3dcc4)
 
 /flashcard/desafio:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/7b98eba4-5612-4985-85db-976ccb84bb96)
+![Captura de tela 2024-01-22 085832](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/c604ff91-11bd-4b4b-bc8f-96e29e65357b)
 
 /flashcard/relatorio:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/115c4558-92d7-4a01-87c9-fed089f6b105)
+![Captura de tela 2024-01-22 090226](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/19dd81f2-7a95-4381-bc1d-ae7637c6c571)
 
 /apostilas/adicionar_apostila:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/ce395cab-f341-4db4-bfb9-5088153d0720)
+![Captura de tela 2024-01-22 090443](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/ef820286-623f-4688-bc4e-0920388f6f35)
 
 /apostilas/apostila:
-![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/42cf5b4d-32ba-471a-9296-0dc87e2ef9fb)
+![Captura de tela 2024-01-22 090503](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/fd6fb094-b251-489d-894d-24c20ff08d08)

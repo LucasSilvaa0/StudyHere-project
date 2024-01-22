@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block 'cabecalho' %}
+
+    <link href="{% static 'usuarios/css/cadastro.css' %}" rel="stylesheet">
+    <link href="{% static 'flashcard/css/novo_flashcard.css' %}" rel="stylesheet">
+    <link href="{% static 'flashcard/css/iniciar_desafio.css' %}" rel="stylesheet">
+
+{% endblock 'cabecalho' %}
+
+
+{% block 'conteudo' %}
+
+    {% include "partials/header.html" %}
+
+    <div class="container ctx">
+        <br>
+        <br>
+        <h2 class="fonte-principal">Iniciar desafio</h2>
+        <p class="fonte-secundaria">Escolha as categorias e a dificuldade do desafio</p>
+        <div class="row">
+        
+            <div class="col-md">
+                <form action="{% url 'iniciar_desafio' %}" method="POST">{% csrf_token%}
+                <label for="">Titulo</label>
+                <input type="text" class="form-control" name="titulo">
+            </div>
+            <div class="col-md">
+                <label>Categoria</label>
+                <select name="categoria" class="form-select" multiple>
+                    {% for categoria in categorias %}
+                        <option value="{{categoria.id}}">
+                            {{categoria.nome}}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md">
+                <label>Dificuldade</label>
+                <select name="dificuldade" class="form-select">
+                    {% for dificuldade in dificuldades %}
+                        <option value="{{dificuldade.0}}">
+                            {{dificuldade.1}}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="col-md">
+                <label>Qtd questões</label>
+                <input type="number" class="form-control" name="qtd_perguntas">
+            </div>
+        
+        </div>
+        <br>
+        <br>
+        <input type="submit" class="btn-cadastro" value="Iniciar desafio">
+        </form>
+    </div>
+{% endblock 'conteudo' %}

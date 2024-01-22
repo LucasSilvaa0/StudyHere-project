@@ -16,7 +16,7 @@ There are some different pages on the website:
 ![Captura de tela 2024-01-22 085454](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/cf722884-e506-44d5-bc96-cf2364a3dcc4)
 
 /flashcard/desafio:
-![Captura de tela 2024-01-22 085832](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/c604ff91-11bd-4b4b-bc8f-96e29e65357b)
+![image](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/dddcaa04-dda0-4929-b7cc-64cb2040f8b6)
 
 /flashcard/relatorio:
 ![Captura de tela 2024-01-22 090226](https://github.com/LucasSilvaa0/StudyHere-project/assets/131834120/19dd81f2-7a95-4381-bc1d-ae7637c6c571)

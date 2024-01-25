@@ -43,7 +43,6 @@ def apostila(request, id):
 def deletar_apostila(request, id):
     apostila = Apostila.objects.get(id=id)
     
-
     if apostila.user == request.user:
         views_apostila = ViewApostila.objects.filter(apostila_id=id)
         for view in views_apostila:
@@ -52,3 +51,7 @@ def deletar_apostila(request, id):
         apostila.delete()
         
     return redirect('/apostilas/adicionar_apostilas')
+
+def visitar_apostila(request):
+    id = request.POST.get('visitar_id')
+    return apostila(request, id)

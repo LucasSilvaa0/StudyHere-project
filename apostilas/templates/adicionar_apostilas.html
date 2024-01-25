@@ -70,5 +70,13 @@
         </div>
     </div>
     <hr>
-    
+    <div class="box-form">
+        <form action="{% url 'visitar_apostila' %}" method="POST" enctype='multipart/form-data'>{% csrf_token %}
+            <h2>Visitar apostila de amigos:</h2>
+            <input type="text" name="visitar_id" placeholder="id da apostila" class="form-control">
+            <br>
+            <input type="submit" class="btn-cadastro" value="visitar">
+        </form>
+    </div>
+
 {% endblock 'conteudo' %}

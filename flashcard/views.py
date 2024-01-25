@@ -183,7 +183,6 @@ def relatorio(request, id):
     cont = 0
     tamanho = len(lista_acertos_ordenada)
     lista_tuplas_ordenada = []
-    print(lista_acertos_ordenada)
     while cont < tamanho:
         for c in categorias:
             if cont == tamanho:
@@ -193,5 +192,6 @@ def relatorio(request, id):
             if i == lista_acertos_ordenada[cont]:
                 lista_tuplas_ordenada.append((c.nome, i, desafio.flashcards.filter(flashcard__categoria=c).count() - i))
                 cont += 1
+    
     
     return render(request, 'relatorio.html', {'desafio': desafio, 'dados': dados, 'lista_categorias': lista_categorias, 'lista_acertos': lista_acertos, 'lista_tuplas_ordenada': lista_tuplas_ordenada})

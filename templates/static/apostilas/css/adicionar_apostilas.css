@@ -1,3 +1,8 @@
 .acao {
     padding-left: 0px;
 }
+
+div.box-form {
+    height: 50px;
+    width: 50px;
+}

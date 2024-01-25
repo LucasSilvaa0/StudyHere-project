@@ -136,6 +136,7 @@ def desafio(request, id):
         raise Http404()
         
     if request.method == "GET":
+        categorias = desafio.categoria.all()
         faltantes = desafio.flashcards.filter(respondido=0).count()
         erros = desafio.flashcards.filter(acertou=0).count() - faltantes
         acertos = desafio.flashcards.filter(acertou=1).count()
@@ -144,7 +145,7 @@ def desafio(request, id):
             desafio.status = 'R'
             desafio.save()
             
-        return render(request, "desafio.html", {"desafio":desafio, "acertos":acertos, "erros":erros, "faltantes":faltantes})
+        return render(request, "desafio.html", {"desafio":desafio, "acertos":acertos, "erros":erros, "faltantes":faltantes, "categorias": categorias})
     return HttpResponse(id)
 
 def responder_flashcard(request, id):

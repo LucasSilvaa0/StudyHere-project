@@ -22,8 +22,9 @@
         <div class="row">
             <div class="col-md">
                 <h3 class="fonte-secundaria" >Desafio iniciado</h3>
-                <span class="badge-categoria">Programação</span>
-                <span class="badge-categoria" >Matemática</span>
+                {% for categoria in categorias %}
+                    <span class="badge-categoria">{{categoria}}</span>
+                {% endfor %}
                 <br>
                 <br>
                 <br>

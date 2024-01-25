@@ -27,8 +27,12 @@ def adicionar_apostilas(request):
         return redirect('/apostilas/adicionar_apostilas')
 
 def apostila(request, id):
-    apostila = Apostila.objects.get(id=id)
+    apostila = Apostila.objects.filter(id=id)
+    if apostila.count() == 0:
+        messages.add_message(request, constants.ERROR, 'Não existe essa apostila.')
+        return redirect('/apostilas/adicionar_apostilas')
     
+    apostila = apostila.first()
     view = ViewApostila(
         ip=request.META['REMOTE_ADDR'],
         apostila=apostila
